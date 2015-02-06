@@ -10,12 +10,12 @@ import static org.junit.Assert.assertEquals;
 public class robotPartSupplierTest {
 
     @Test
-    public void testDeliverRobotParts() throws Exception {
+    public void supplierDeliversRobotParts() throws Exception {
         robotPartSupplier robotPartSupplier = new robotPartSupplier();
         List<robotPart> robotParts = new ArrayList<robotPart>();
 
-        robotParts.add(new mockedRobotPart());
-        robotParts.add(new mockedRobotPart());
+        robotParts.add(new mockedRobotPart(robotPartCategory.assembly));
+        robotParts.add(new mockedRobotPart(robotPartCategory.assembly));
 
         robotPartSupplier.setRobotPart(robotParts);
 

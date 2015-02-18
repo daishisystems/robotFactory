@@ -3,7 +3,7 @@ package daishi.tutorials;
 import java.util.ArrayList;
 import java.util.List;
 
-public class factoryRoom<E extends robotPart> {
+public abstract class factoryRoom<E extends robotPart> {
     private List<transportMechanism> _transportMechanisms = new ArrayList<transportMechanism>();
     private List<E> _robotParts;
 

@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="176cbd22-aa2f-4ae2-ac5d-c40298fbcf98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/armouryTransportMechanism.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/robotPartCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/transportMechanism.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/armoury.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/assembly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/factoryRoom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/daishi/tutorials/mockedFactoryRoom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/daishi/tutorials/weapon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/armouryTransportMechanism.class" afterPath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/armouryTransportMechanism.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/assemblyRoomTransportMechanism.class" afterPath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/assemblyRoomTransportMechanism.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/robotFactory/daishi/tutorials/mockedRobotPart.class" afterPath="$PROJECT_DIR$/out/test/robotFactory/daishi/tutorials/mockedRobotPart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/robotPart.class" afterPath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/robotPart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/robotFactory/daishi/tutorials/robotPartSupplierTest.class" afterPath="$PROJECT_DIR$/out/test/robotFactory/daishi/tutorials/robotPartSupplierTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/transportMechanism.class" afterPath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/transportMechanism.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/workerDrone$1.class" afterPath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/workerDrone$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/workerDrone.class" afterPath="$PROJECT_DIR$/out/production/robotFactory/daishi/tutorials/workerDrone.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/robotFactory/daishi/tutorials/workerDroneTests.class" afterPath="$PROJECT_DIR$/out/test/robotFactory/daishi/tutorials/workerDroneTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daishi/tutorials/armouryTransportMechanism.java" afterPath="$PROJECT_DIR$/src/daishi/tutorials/armouryTransportMechanism.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java" afterPath="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java" afterPath="$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daishi/tutorials/robotPart.java" afterPath="$PROJECT_DIR$/src/daishi/tutorials/robotPart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java" afterPath="$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java" afterPath="$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daishi/tutorials/transportMechanism.java" afterPath="$PROJECT_DIR$/src/daishi/tutorials/transportMechanism.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java" afterPath="$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java" afterPath="$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="robotFactory.iws" />
@@ -40,21 +47,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="workerDrone.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="workerDrone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7118644" vertical-offset="0" max-vertical-offset="483">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="903">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supplier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/supplier.java">
+      <file leaf-file-name="robotPartSupplierTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,51 +72,19 @@
       <file leaf-file-name="transportMechanism.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/transportMechanism.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="672">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mockedWorkerDrone.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robotPartSupplierTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="693">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robotPartSupplier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPartSupplier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workerDroneTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assemblyRoomTransportMechanism.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
@@ -117,29 +94,67 @@
       <file leaf-file-name="armouryTransportMechanism.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/armouryTransportMechanism.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robotPart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPart.java">
+      <file leaf-file-name="assemblyRoomTransportMechanism.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="38" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workerDroneTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31012657" vertical-offset="0" max-vertical-offset="1155">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robotPartCategory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPartCategory.java">
+      <file leaf-file-name="mockedFactoryRoom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedFactoryRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mockedRobotPart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factoryRoom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/factoryRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,25 +176,39 @@
         <option value="$PROJECT_DIR$/src/daishi/tutorials/Main.java" />
         <option value="$PROJECT_DIR$/tests/robotPartSupplierTests.java" />
         <option value="$PROJECT_DIR$/tests/daishi/tutorials/WorkerDroneTests.java" />
-        <option value="$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java" />
         <option value="$PROJECT_DIR$/tests/daishi/tutorials/TransportMechanismTests.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/transportMechansim.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechansim.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/armRobotPart.java" />
-        <option value="$PROJECT_DIR$/src/daishi/tutorials/legRobotPart.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/RobotFactoryRoom.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/robotFactoryRoom.java" />
-        <option value="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoom.java" />
         <option value="$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotFactoryRoom.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/RobotPartCategory.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/robotPartCategory.java" />
-        <option value="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java" />
-        <option value="$PROJECT_DIR$/src/daishi/tutorials/transportMechanism.java" />
-        <option value="$PROJECT_DIR$/src/daishi/tutorials/armouryTransportMechanism.java" />
-        <option value="$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java" />
         <option value="$PROJECT_DIR$/src/daishi/tutorials/robotPart.java" />
-        <option value="$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java" />
         <option value="$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/mockedFactoryRoom.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/assemblyRoomTransportationMechanism.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/assemblyRoomTransportationMechanismTests.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/mockedTransportationMechanism.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/factoryRoomOccupant.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/legRobotPart.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/armoury.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/shortRangeMissile.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoom.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/weapon.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/assembly.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/transportationMechanismTests.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/generalAccessTransportMechansim.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/factoryRoom.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/armouryTransportMechanism.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/generalAccessTransportMechanism.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java" />
+        <option value="$PROJECT_DIR$/tests/daishi/tutorials/assemblyRoomTests.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/transportMechanism.java" />
+        <option value="$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java" />
         <option value="$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java" />
       </list>
     </option>
@@ -292,6 +321,7 @@
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -475,7 +505,13 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -504,17 +540,18 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33020133" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3261745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -524,7 +561,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -544,7 +580,12 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -552,95 +593,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="357">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPartSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="336">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="693">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="210">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="231">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedDeliveryBay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="210">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="63" max-vertical-offset="210">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="231">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="273">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/deliveryBay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="441">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="441">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +620,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="693">
           <caret line="26" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -674,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="210">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="273">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="441">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="441">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +682,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="693">
           <caret line="26" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -740,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="210">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="273">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="441">
           <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="441">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +744,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -806,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="210">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,25 +776,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/deliveryBay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPartSupplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java">
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPartCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="294">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.058577407" vertical-offset="0" max-vertical-offset="717">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.087866105" vertical-offset="0" max-vertical-offset="717">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/assembly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -861,28 +837,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java">
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/assemblyRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="2" column="45" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java">
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/armoury.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="693">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="768" max-vertical-offset="1512">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4" vertical-offset="33" max-vertical-offset="1995">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20047733" vertical-offset="0" max-vertical-offset="419">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/internal/runners/statements/ExpectException.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5298165" vertical-offset="0" max-vertical-offset="436">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37416482" vertical-offset="0" max-vertical-offset="449">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40206185" vertical-offset="0" max-vertical-offset="1113">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/factoryRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -891,64 +916,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/armouryTransportMechanism.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/assemblyRoomTransportMechanism.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPart.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPartCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/robotPartSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/transportMechanism.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="672">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/daishi/tutorials/workerDrone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7118644" vertical-offset="0" max-vertical-offset="483">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="903">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedFactoryRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedRobotPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/mockedWorkerDrone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="231">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/robotPartSupplierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/daishi/tutorials/workerDroneTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31012657" vertical-offset="0" max-vertical-offset="1155">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding />
         </state>
       </provider>

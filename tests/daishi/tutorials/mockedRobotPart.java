@@ -2,7 +2,7 @@ package daishi.tutorials;
 
 public class mockedRobotPart extends robotPart {
 
-    protected mockedRobotPart(daishi.tutorials.robotPartCategory robotPartCategory) {
+    public mockedRobotPart(robotPartCategory robotPartCategory) {
         super(robotPartCategory);
     }
 }

@@ -1,15 +1,5 @@
 package daishi.tutorials;
 
-import java.util.List;
+public class deliveryBay extends factoryRoom<robotPart> {
 
-public abstract class deliveryBay {
-    private List<robotPart> _robotParts;
-
-    public List<robotPart> getRobotParts() {
-        return _robotParts;
-    }
-
-    public void setRobotPart(List<robotPart> value) {
-        _robotParts = value;
-    }
-} // todo: Abstract deliveryBay and supplier to the same interface
+}

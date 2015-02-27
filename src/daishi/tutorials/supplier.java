@@ -9,7 +9,7 @@ public abstract class supplier {
         return _robotParts;
     }
 
-    public void setRobotPart(List<robotPart> value) {
+    public void setRobotParts(List<robotPart> value) {
         _robotParts = value;
     }
 }

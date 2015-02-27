@@ -1,44 +1,45 @@
 package daishi.tutorials;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class workerDrone {
-    private transportMechanism _transportMechanism;
-    private List<robotPart> _robotParts;
+
+    private List<transportMechanism> _transportMechanisms;
 
     public workerDrone() {
-        _robotParts = new ArrayList<robotPart>();
+        _transportMechanisms = new ArrayList<transportMechanism>();
     }
 
-    public transportMechanism getTransportMechanism() {
-        return _transportMechanism;
-    }
-
-    public void identifyRobotPart(robotPart robotPart) {
+    public transportMechanism identifyRobotPart(robotPart robotPart) throws UnsupportedOperationException {
         switch (robotPart.getRobotPartCategory()) {
             case assembly:
-                _transportMechanism = new assemblyRoomTransportMechanism();
-                break;
+                return new assemblyRoomTransportMechanism((assembly) robotPart);
             case weapon:
-                _transportMechanism = new armouryTransportMechanism();
-                break;
+                return new armouryTransportMechanism((weapon) robotPart);
         }
+        throw new UnsupportedOperationException("I can't identify this component!");
     }
 
     public void pickUpRobotPart(robotPart robotPart) {
-        this._robotParts.add(robotPart);
-        identifyRobotPart(robotPart);
+        transportMechanism transportMechanism = identifyRobotPart(robotPart);
+        _transportMechanisms.add(transportMechanism);
     }
 
     public factoryRoom transportRobotParts() {
-        if (_transportMechanism == null) {
-            throw new NullPointerException("No Transportation-Mechanism defined!");
+        factoryRoom factoryRoom = null;
+
+        for (Iterator<transportMechanism> i = _transportMechanisms.iterator(); i.hasNext(); ) {
+            transportMechanism transportMechanism = i.next();
+            factoryRoom = transportMechanism.offLoadRobotPart();
         }
-        return _transportMechanism.offLoadRobotParts(_robotParts);
+
+        _transportMechanisms.clear();
+        return factoryRoom;
     }
 
     public int getRobotPartCount() {
-        return _robotParts.size();
+        return _transportMechanisms.size();
     }
 }

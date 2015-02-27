@@ -14,15 +14,15 @@ public class robotPartSupplierTest {
         robotPartSupplier robotPartSupplier = new robotPartSupplier();
         List<robotPart> robotParts = new ArrayList<robotPart>();
 
-        robotParts.add(new mockedRobotPart(robotPartCategory.assembly));
-        robotParts.add(new mockedRobotPart(robotPartCategory.assembly));
+        robotParts.add(new mockedAssembly());
+        robotParts.add(new mockedWeapon());
 
-        robotPartSupplier.setRobotPart(robotParts);
+        robotPartSupplier.setRobotParts(robotParts);
 
-        deliveryBay mockedDeliveryBay = new mockedDeliveryBay();
+        factoryRoom mockedDeliveryBay = new mockedDeliveryBay();
         robotPartSupplier.deliverRobotParts(mockedDeliveryBay);
 
-        assertEquals(2, mockedDeliveryBay.getRobotParts().size());
+        assertEquals(2, mockedDeliveryBay.getRobotPartCount());
         assertEquals(0, robotPartSupplier.getRobotParts().size());
     }
 }

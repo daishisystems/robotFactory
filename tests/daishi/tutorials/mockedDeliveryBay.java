@@ -1,4 +1,5 @@
 package daishi.tutorials;
 
-public class mockedDeliveryBay extends deliveryBay {
+public class mockedDeliveryBay extends factoryRoom<robotPart> {
+
 }

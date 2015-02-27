@@ -1,10 +1,14 @@
 package daishi.tutorials;
 
-import java.util.ArrayList;
+import java.util.Iterator;
 
 public class robotPartSupplier extends supplier {
-    public void deliverRobotParts(deliveryBay deliveryBay) {
-        deliveryBay.setRobotPart(new ArrayList<robotPart>(this.getRobotParts()));
+    public void deliverRobotParts(factoryRoom<robotPart> deliveryBay) {
+
+        for (Iterator<robotPart> i = getRobotParts().iterator(); i.hasNext(); ) {
+            deliveryBay.addRobotPart(i.next());
+        }
+
         getRobotParts().clear();
     }
 }

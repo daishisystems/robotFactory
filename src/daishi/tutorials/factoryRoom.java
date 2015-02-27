@@ -7,16 +7,16 @@ public abstract class factoryRoom<E extends robotPart> {
     private List<transportMechanism> _transportMechanisms = new ArrayList<transportMechanism>();
     private List<E> _robotParts;
 
+    protected factoryRoom() {
+        _robotParts = new ArrayList<E>();
+    }
+
     public void addTransportationMechanism(transportMechanism transportMechanism) {
         _transportMechanisms.add(transportMechanism);
     }
 
-    public void setRobotParts(List<E> robotParts) {
-        _robotParts = robotParts;
-    }
-
-    public int getOccupantCount() {
-        return _transportMechanisms != null ? _transportMechanisms.size() : 0;
+    public void addRobotPart(E robotPart) {
+        _robotParts.add(robotPart);
     }
 
     public int getRobotPartCount() {

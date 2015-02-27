@@ -2,8 +2,8 @@ package daishi.tutorials;
 
 public class deliveryBayTransportMechanism extends transportMechanism<factoryRoom, robotPart> {
 
-    protected deliveryBayTransportMechanism(robotPart robotPart) {
-        super(robotPart);
+    protected deliveryBayTransportMechanism() {
+        super(null);
     }
 
     @Override

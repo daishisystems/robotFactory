@@ -27,19 +27,25 @@ public class workerDrone {
         _transportMechanisms.add(transportMechanism);
     }
 
-    public factoryRoom transportRobotParts() {
-        factoryRoom factoryRoom = null;
-
+    public void transportRobotParts() {
         for (Iterator<transportMechanism> i = _transportMechanisms.iterator(); i.hasNext(); ) {
             transportMechanism transportMechanism = i.next();
-            factoryRoom = transportMechanism.offLoadRobotPart();
+            transportMechanism.offLoadRobotPart();
         }
 
         _transportMechanisms.clear();
-        return factoryRoom;
+
+        deliveryBayTransportMechanism deliveryBayTransportMechanism = new deliveryBayTransportMechanism();
+        _transportMechanisms.add(deliveryBayTransportMechanism);
+
+        deliveryBayTransportMechanism.enterRoom();
     }
 
     public int getRobotPartCount() {
         return _transportMechanisms.size();
+    }
+
+    public List<transportMechanism> getTransportMechanisms() {
+        return _transportMechanisms;
     }
 }

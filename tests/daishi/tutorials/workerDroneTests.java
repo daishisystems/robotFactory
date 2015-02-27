@@ -2,9 +2,12 @@ package daishi.tutorials;
 
 import org.junit.Test;
 
+import java.util.Iterator;
+
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 public class workerDroneTests {
     @Test
@@ -34,20 +37,15 @@ public class workerDroneTests {
         robotPart robotPart = new mockedAssembly();
 
         workerDrone.pickUpRobotPart(robotPart);
-        factoryRoom factoryRoom = workerDrone.transportRobotParts();
+        workerDrone.transportRobotParts();
 
-        assertEquals(0, workerDrone.getRobotPartCount());
-        assertEquals(1, factoryRoom.getRobotPartCount());
-        assertThat(factoryRoom, instanceOf(assemblyRoom.class));
-
+        assertEquals(1, workerDrone.getRobotPartCount());
         robotPart = new mockedWeapon();
 
         workerDrone.pickUpRobotPart(robotPart);
-        factoryRoom = workerDrone.transportRobotParts();
+        workerDrone.transportRobotParts();
 
-        assertEquals(0, workerDrone.getRobotPartCount());
-        assertEquals(1, factoryRoom.getRobotPartCount());
-        assertThat(factoryRoom, instanceOf(armoury.class));
+        assertEquals(1, workerDrone.getRobotPartCount());
     }
 
     @Test
@@ -60,7 +58,26 @@ public class workerDroneTests {
         workerDrone.pickUpRobotPart(randomAssembly);
         workerDrone.pickUpRobotPart(randomWeapon);
 
-        factoryRoom factoryRoom = workerDrone.transportRobotParts();
-        assertEquals(1, factoryRoom.getRobotPartCount());
+        workerDrone.transportRobotParts();
+        assertEquals(1, workerDrone.getRobotPartCount());
+    }
+
+    @Test
+    public void workerDroneReturnsToDeliveryBayAfterDeliveringRobotParts() {
+        workerDrone workerDrone = new mockedWorkerDrone();
+
+        robotPart randomAssembly = new mockedAssembly();
+        robotPart randomWeapon = new mockedWeapon();
+
+        workerDrone.pickUpRobotPart(randomAssembly);
+        workerDrone.pickUpRobotPart(randomWeapon);
+
+        workerDrone.transportRobotParts();
+
+        Iterator<transportMechanism> iterator = workerDrone.getTransportMechanisms().iterator();
+        assertTrue(iterator.hasNext());
+
+        transportMechanism transportMechanism = iterator.next();
+        assertThat(transportMechanism, instanceOf(deliveryBayTransportMechanism.class));
     }
 }

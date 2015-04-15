@@ -4,11 +4,11 @@ public abstract class transportMechanism<E extends factoryRoom, U extends robotP
     private final U _robotPart;
     private E _factoryRoom;
 
-    public abstract E getFactoryRoom();
-
     protected transportMechanism(U robotPart) {
         _robotPart = robotPart;
     }
+
+    public abstract E getFactoryRoom();
 
     public void enterRoom() {
         _factoryRoom = getFactoryRoom();

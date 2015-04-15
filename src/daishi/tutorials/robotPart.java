@@ -4,6 +4,10 @@ public abstract class robotPart {
     protected robotPartCategory robotPartCategory;
     protected String name;
 
+    protected robotPart(robotPartCategory robotPartCategory) {
+        this.robotPartCategory = robotPartCategory;
+    }
+
     public robotPartCategory getRobotPartCategory() {
         return robotPartCategory;
     }
@@ -14,10 +18,6 @@ public abstract class robotPart {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    protected robotPart(robotPartCategory robotPartCategory) {
-        this.robotPartCategory = robotPartCategory;
     }
 
     @Override

@@ -24,4 +24,20 @@ public class robotBuilderTests {
         assertThat(basicRobotBuilder.getRobot().getleftLeg(), instanceOf(basicLeftLeg.class));
         assertThat(basicRobotBuilder.getRobot().getRightLeg(), instanceOf(basicRightLeg.class));
     }
+
+    @Test
+    public void robotBuilderBuildsRobotWithCaterpillars() {
+        caterpillarRobotBuilder caterpillarRobotBuilder = new caterpillarRobotBuilder();
+        caterpillarRobotBuilder.buildHead();
+        caterpillarRobotBuilder.buildTorso();
+        caterpillarRobotBuilder.buildArms();
+        caterpillarRobotBuilder.buildLegs();
+
+        assertThat(caterpillarRobotBuilder.getRobot().getHead(), instanceOf(basicHead.class));
+        assertThat(caterpillarRobotBuilder.getRobot().getTorso(), instanceOf(basicTorso.class));
+        assertThat(caterpillarRobotBuilder.getRobot().getLeftArm(), instanceOf(basicLeftArm.class));
+        assertThat(caterpillarRobotBuilder.getRobot().getRightArm(), instanceOf(basicRightArm.class));
+        assertThat(caterpillarRobotBuilder.getRobot().getleftLeg(), instanceOf(caterpillar.class));
+        assertThat(caterpillarRobotBuilder.getRobot().getRightLeg(), instanceOf(caterpillar.class));
+    }
 }
